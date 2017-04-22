@@ -19,6 +19,6 @@ public class canvasText : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        text.text = playerName + br + br + "Health:" + br + health + br + br + "Speed:" + br + speed + br + br + "Bomb Capacity:" + br + bombCapacity;
+        text.text = playerName + br + br + "Health:" + br + health + br + br + "Speed:" + br + speed + br + br + "Capacity:" + br + bombCapacity;
     }
 }
